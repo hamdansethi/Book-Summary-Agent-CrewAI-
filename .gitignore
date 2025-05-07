@@ -1,0 +1,40 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variables file (containing API keys)
+.env
+
+# Ignore virtual environment directory
+venv/
+env/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore MacOS Finder files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore test output
+test-output/
+
+# Ignore coverage files (if using coverage tools)
+.coverage
+coverage.xml
+
+# Ignore build directories
+build/
+dist/
+*.egg-info/
+
+# Ignore other files and directories based on your project
+*.sqlite3
+*.db
